@@ -1,0 +1,11 @@
+---
+Name: silverware-colorpicker
+---
+
+# Configure Admin Extensions:
+
+SilverStripe\Admin\LeftAndMain:
+  extra_requirements_css:
+    - silverware-colorpicker/admin/client/dist/styles/bundle.css
+  extra_requirements_javascript:
+    - silverware-colorpicker/admin/client/dist/js/bundle.js

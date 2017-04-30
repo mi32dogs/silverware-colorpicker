@@ -1,0 +1,9 @@
+---
+Name: silverware-colorpicker-model
+---
+
+# Configure Model:
+
+SilverStripe\Core\Injector\Injector:
+  Color:
+    class: SilverWare\Colorpicker\ORM\FieldType\DBColor
