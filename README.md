@@ -1,5 +1,9 @@
 # SilverWare Colorpicker Module
 
+[![Latest Stable Version](https://poser.pugx.org/silverware/colorpicker/v/stable)](https://packagist.org/packages/silverware/colorpicker)
+[![Latest Unstable Version](https://poser.pugx.org/silverware/colorpicker/v/unstable)](https://packagist.org/packages/silverware/colorpicker)
+[![License](https://poser.pugx.org/silverware/colorpicker/license)](https://packagist.org/packages/silverware/colorpicker)
+
 Provides a new form field and database field type for choosing a color via a colorpicker. Intended
 to be used with [SilverWare][silverware], however this module can also be installed into a regular
 [SilverStripe v4][silverstripe-framework] project.
