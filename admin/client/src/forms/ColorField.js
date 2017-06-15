@@ -1,7 +1,7 @@
 /* Color Field
 ===================================================================================================================== */
 
-import $ from 'jQuery';
+import $ from 'jquery';
 import 'bootstrap-colorpicker';
 
 $.entwine('silverware.colorfield', function($) {
@@ -11,8 +11,15 @@ $.entwine('silverware.colorfield', function($) {
   $('.field.colorfield .wrapper').entwine({
     
     onmatch: function() {
+      
+      // Initialise Colorpicker:
+      
       $(this).colorpicker();
+      
+      // Trigger Next Method:
+      
       this._super();
+      
     }
     
   });
