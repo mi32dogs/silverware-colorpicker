@@ -50,7 +50,7 @@ class DBColor extends DBVarchar
      * @param string $title Title of the field instance.
      * @param array $params Array of extra parameters.
      *
-     * @return TextField
+     * @return ColorField
      */
     public function scaffoldFormField($title = null, $params = null)
     {
