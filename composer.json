@@ -1,6 +1,6 @@
 {
   "name": "silverware/colorpicker",
-  "type": "silverstripe-module",
+  "type": "silverstripe-vendormodule",
   "description": "SilverWare Colorpicker Module.",
   "homepage": "https://github.com/praxisnetau/silverware-colorpicker",
   "keywords": [
@@ -30,7 +30,9 @@
     "branch-alias": {
       "dev-master": "1.0.x-dev"
     },
-    "installer-name": "silverware-colorpicker"
+    "expose": [
+      "admin/client/dist"
+    ]
   },
   "minimum-stability": "dev",
   "prefer-stable": true
