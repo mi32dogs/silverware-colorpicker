@@ -14,13 +14,3 @@
  * @license https://opensource.org/licenses/BSD-3-Clause BSD-3-Clause
  * @link https://github.com/praxisnetau/silverware-colorpicker
  */
-
-// Define Module Constants:
-
-if (!defined('SILVERWARE_COLORPICKER_DIR')) {
-    define('SILVERWARE_COLORPICKER_DIR', basename(__DIR__));
-}
-
-if (!defined('SILVERWARE_COLORPICKER_PATH')) {
-    define('SILVERWARE_COLORPICKER_PATH', realpath(__DIR__));
-}
