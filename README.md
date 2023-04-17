@@ -23,7 +23,7 @@ to be used with [SilverWare][silverware], however this module can also be instal
 
 ## Requirements
 
-- [SilverStripe Framework v4][silverstripe-framework]
+- [SilverStripe Framework v4][silverstripe-framework] & [SilverStripe Framework v5][silverstripe-framework]
 
 ## Installation
 
